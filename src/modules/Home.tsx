@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-2 py-20">
-      <div className="flex flex-col justify-center gap-3 h-full text-5xl text-purple-700 font-medium px-6">
+      <div className="flex flex-col justify-center gap-3 h-full text-4xl text-purple-700 font-medium px-6">
         <div>Hi,There </div>
         <div>
           I am <span className="text-red-500 italic"> Bijay Subedi</span>
@@ -15,9 +15,9 @@ const Home = () => {
 
       <picture>
         <img
-          src={"/assets/bijay.png"}
+          src={"/assets/bijay-subedi.png"}
           alt="profile"
-          className="h-[450px] w-[450px] object-cover "
+          className="h-[450px] w-[450px] object-cover rounded-full"
         />
       </picture>
     </div>

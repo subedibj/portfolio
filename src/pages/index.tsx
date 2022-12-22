@@ -7,7 +7,7 @@ import Work from "../modules/Work";
 const HomePage = () => {
   return (
     <>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-20">
         <Home />
         <About />
         <Skill />
