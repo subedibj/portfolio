@@ -15,7 +15,7 @@ const TextArea: React.FC<Props> = ({
   return (
     <>
       <textarea
-        className={`placeholder-gray-600 border-2 border-textGray w-full h-24 p-2 pr-9 shadow-sm rounded-md text-textLightBlack text-sm font-normal focus:outline-none focus:border-primaryGreen`}
+        className={`placeholder-gray-600 border-2 border-textGray w-full h-16 md:h-24 xl:h-20 p-2 pr-9 shadow-sm rounded-md text-textLightBlack text-xs md:text-sm xl:text-xs font-normal focus:outline-none focus:border-primaryGreen`}
         {...props}
         disabled={isDisabled}
         placeholder={placeholder}

@@ -15,7 +15,7 @@ const Input: React.FC<Props> = ({
   return (
     <>
       <input
-        className={`placeholder-gray-600 border-2 border-textGray w-full h-12 p-2 pr-9 shadow-sm rounded-md text-textLightBlack text-sm font-normal focus:outline-none focus:border-primaryGreen`}
+        className={`placeholder-gray-600 border-2 border-textGray w-full h-8 md:h-12 xl:h-9 p-2 pr-9 shadow-sm rounded-md text-textLightBlack text-xs md:text-sm xl:text-xs font-normal focus:outline-none focus:border-primaryGreen`}
         {...props}
         disabled={isDisabled}
         placeholder={placeholder}

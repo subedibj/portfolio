@@ -7,15 +7,13 @@ import Work from "../modules/Work";
 
 const HomePage = () => {
   return (
-    <>
-      <div className="flex flex-col gap-20">
-        <Home />
-        <About />
-        <Skill />
-        <Work />
-        <Contact />
-      </div>
-    </>
+    <div className="grid grid-cols-1 gap-20">
+      <Home />
+      <About />
+      <Skill />
+      <Work />
+      <Contact />
+    </div>
   );
 };
 
