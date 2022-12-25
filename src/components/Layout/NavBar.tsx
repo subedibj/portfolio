@@ -5,7 +5,7 @@ import { navBarData } from "../../constants/navBarData";
 const NavBar = () => {
   return (
     <>
-      <div className="h-16 w-full flex justify-between bg-yellow-800 gap-20">
+      <div className="h-auto md:h-16 w-full flex flex-col md:flex-row justify-between md:gap-20">
         {navBarData.map((nav) => {
           return (
             <div
